@@ -137,3 +137,20 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Swift/Xcode
+packages/agent/.build/
+packages/agent/.swiftpm/
+packages/agent/DerivedData/
+packages/agent/*.xcodeproj
+packages/agent/*.xcworkspace
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build outputs
+build/

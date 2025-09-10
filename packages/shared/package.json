@@ -1,0 +1,16 @@
+{
+  "name": "@tivi/shared",
+  "version": "1.0.0",
+  "description": "Shared types and utilities for Tivi",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
